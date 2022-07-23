@@ -31,3 +31,39 @@ section.phone
     width: 311px;
     background: url('../imagens/fundo/frame-iphone.png') no-repeat;
 }
+
+iframe#tela
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 481px;
+    width: 269px;
+    border-radius: 5px;
+}
+#home-button
+{
+    position: relative;
+    bottom: -16.2%;
+    left: 50.155%;
+    transform: translate(-50%, -50%);
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+
+}
+button
+{
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    
+}
+button:active
+{
+    box-shadow: inset 0px 0px 2px;
+}
