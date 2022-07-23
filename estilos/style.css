@@ -21,6 +21,7 @@ main
     position: relative;
     height: 100vh;
 }
+
 section.phone
 {
     position: absolute;
@@ -62,11 +63,6 @@ section.redes-sociais img:hover
     transition: transform 0.5s, border 0.2s;
 }
 
-
-
-
-
-
 #home-button
 {
     position: relative;
@@ -78,7 +74,7 @@ section.redes-sociais img:hover
     border-radius: 50%;
 
 }
-button
+#home-button a
 {
     position: absolute;
     height: 43px;
@@ -88,7 +84,7 @@ button
     cursor: pointer;
     
 }
-button:active
+#home-button:active
 {
     box-shadow: inset 0px 0px 2px;
 }
