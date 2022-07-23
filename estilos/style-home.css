@@ -1,0 +1,54 @@
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    body
+    {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: black url('../imagens/fundo/tela-home.jpg') no-repeat top center;
+        background-size: cover;
+    }
+
+    img
+    {
+        width: 46px;
+        border-radius: 20%;
+        box-sizing: border-box;
+        
+    }
+    
+    .link1
+    {
+        position: absolute;
+        bottom: 0%;
+        transform: translate(-7%, 13%);
+        margin: 20px;
+    }
+
+    .link2
+    {
+        position: absolute;
+        bottom: 0%;
+        transform: translate(130%, 13%);
+        margin: 20px;
+    }
+
+    .link3
+    {
+        position: absolute;
+        bottom: 0%;
+        transform: translate(269%, 13%);
+        margin: 20px;
+    }
+
+    .link4
+    {
+        position: absolute;
+        bottom: 0%;
+        transform: translate(408%, 13%);
+        margin: 20px;
+    }
